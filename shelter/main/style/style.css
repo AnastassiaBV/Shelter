@@ -27,6 +27,7 @@ p {
     margin: 0 auto;
     padding-left: 40px;
     padding-right: 40px;
+
 }
 
 @media (max-width:769px) {
@@ -610,9 +611,9 @@ p {
 
 @media (max-width: 768px) {
 .footer_img {
-margin-top: 62px;
+margin-top: 60px;
 }
-
+}
 
     footer .footer_inner .footer_contacts .contacts_info a {
         font-family: 'Georgia';

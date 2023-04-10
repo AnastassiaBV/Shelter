@@ -34,7 +34,7 @@ p {
 }
 
 header {
-    padding: 30px 0
+    padding: 30px 0;
 
 }
    
@@ -192,11 +192,28 @@ header {
     transition: background .2s
 }
 @media (max-width:768px) {
+    .pets {
+        padding: 80px 0 70px;
+    }
     .pets .pets_inner .pets_title {
         margin-bottom: 30px;
         
     }
-    
+    .pets .pets_inner .pets_list .pets_items {
+        height: 1348px;
+        
+    }
+    .pets .pets_inner .pets_list .pets_items .pets_item {
+        margin-bottom: 0;
+    }
+    .pets .pets_inner .pets_list .pets_items .pets_item .pets_item_img {
+        margin-bottom: 25px;
+    }
+    .pets .pets_inner .pets_list .pets_items .pets_item .pets_slider_btn {
+        
+        font-size: 17px ;
+    }
+   
 }
 
 .pets .pets_inner .pets_list .pets_items .pets_item:hover {
@@ -247,6 +264,19 @@ header {
     color: #292929;
     border-color: #F1CDB3
 }
+@media (max-width: 768px) {
+    .pets .pets_inner .pets_list .pets_pagination {
+        column-gap: 16px;
+        padding: 0.872rem 0.72rem;
+        margin-top: 30px;
+    }
+    .pets .pets_inner .pets_list .pets_pagination .left,
+.pets .pets_inner .pets_list .pets_pagination .right {
+    padding: 0.875rem 1.25rem;
+}
+
+}
+    
 
 footer {
     background-image: url('../images/start-screen-gradient-background.jpg');
@@ -266,6 +296,41 @@ footer .footer_inner .footer_contacts {
     /* margin-right: .7rem */
     width: 302px;
 }
+
+@media (max-width: 768px) {
+    /* footer {
+        padding-top: 26px;
+        column-gap: 16px;
+    }
+    footer .footer_inner .footer_contacts {
+    margin-bottom: 30px;
+} */
+@media (max-width:768px) {
+    footer {
+        padding-top: 32px;
+    }
+
+    footer .footer_inner {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        column-gap: 40px;
+    }
+    footer .footer_inner .footer_contacts:nth-child(2) .contacts_info{
+        margin-top: 31px;
+    }
+
+}
+
+@media (max-width: 768px) {
+.footer_img {
+margin-top: 60px;
+}
+}
+
+
+    
+
 
 footer .footer_inner .footer_contacts .contacts_title {
     font-family: 'Georgia';
